@@ -1,0 +1,6 @@
+name: astrbot_plugin_group_pet
+display_name: 群宠物养成
+desc: 群宠物养成插件：领养随机品种的宠物，喂食、玩耍、打工、冒险赚金币升级；宠物会随时间变饿变无聊，饿太久会离家出走，支持群内等级排行。（开发中，可能有 bug）
+version: v1.0.0
+author: xiaowan
+repo: ""

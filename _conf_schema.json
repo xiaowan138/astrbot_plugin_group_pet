@@ -1,0 +1,62 @@
+{
+  "feed_cost": {
+    "description": "喂食一次消耗的金币",
+    "type": "int",
+    "default": 5,
+    "hint": "建议 1~20，0 表示喂食免费"
+  },
+  "feed_cooldown_s": {
+    "description": "喂食冷却（秒）",
+    "type": "int",
+    "default": 60,
+    "hint": "防止连续刷喂食"
+  },
+  "play_cooldown_min": {
+    "description": "玩耍冷却（分钟）",
+    "type": "int",
+    "default": 5
+  },
+  "work_cooldown_min": {
+    "description": "打工冷却（分钟）",
+    "type": "int",
+    "default": 10
+  },
+  "adventure_cooldown_min": {
+    "description": "冒险冷却（分钟）",
+    "type": "int",
+    "default": 15
+  },
+  "work_reward_min": {
+    "description": "打工最少获得金币",
+    "type": "int",
+    "default": 10
+  },
+  "work_reward_max": {
+    "description": "打工最多获得金币",
+    "type": "int",
+    "default": 25
+  },
+  "levelup_coin_bonus": {
+    "description": "每次升级奖励的金币",
+    "type": "int",
+    "default": 20
+  },
+  "decay_interval_min": {
+    "description": "后台状态衰减间隔（分钟）",
+    "type": "int",
+    "default": 30,
+    "hint": "每隔该时长，所有宠物饱食度/心情下降一次"
+  },
+  "decay_hunger": {
+    "description": "每次衰减减少的饱食度",
+    "type": "int",
+    "default": 2,
+    "hint": "默认 30 分钟掉 2 点，约 20 小时从 80 掉到 0"
+  },
+  "runaway_hours": {
+    "description": "饥饿状态持续多少小时后离家出走",
+    "type": "int",
+    "default": 72,
+    "hint": "主人和宠物互动时结算并告知；设为 0 可关闭离家出走"
+  }
+}
