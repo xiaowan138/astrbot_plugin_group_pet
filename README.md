@@ -1,6 +1,6 @@
 # astrbot_plugin_group_pet 群宠物养成
 
-![群宠物养成](cover.png)
+![群宠物养成](logo.png)
 
 > ⚠️ **本插件仍在开发中**，功能与数值还会继续调整，可能存在 bug。
 > 遇到问题欢迎提 [Issue](https://github.com/xiaowan138/astrbot_plugin_group_pet/issues)。
