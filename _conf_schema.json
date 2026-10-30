@@ -57,6 +57,30 @@
     "description": "饥饿状态持续多少小时后离家出走",
     "type": "int",
     "default": 72,
-    "hint": "主人和宠物互动时结算并告知；设为 0 可关闭离家出走"
+    "hint": "后台衰减时结算并主动告知；设为 0 可关闭离家出走"
+  },
+  "starve_warn_hours": {
+    "description": "离家出走前多少小时主动提醒",
+    "type": "int",
+    "default": 6,
+    "hint": "宠物饿坏后，剩余时间少于该值会主动发消息提醒主人；设为 0 关闭提醒"
+  },
+  "rename_cooldown_min": {
+    "description": "宠物改名冷却（分钟）",
+    "type": "int",
+    "default": 10,
+    "hint": "设为 0 表示不限次数"
+  },
+  "sign_coins": {
+    "description": "每日签到基础金币",
+    "type": "int",
+    "default": 20,
+    "hint": "连续签到每多一天 +5 金币，最高 50"
+  },
+  "task_coins": {
+    "description": "每日任务全部完成的金币奖励",
+    "type": "int",
+    "default": 30,
+    "hint": "每日任务：喂食/玩耍/打工/冒险各 1 次，另附经验 20"
   }
 }
